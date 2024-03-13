@@ -1,0 +1,284 @@
+@charset "UTF-8";
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/* Login Start */
+.background-login{
+    background-image: url(../img/login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-login{
+    width: 350px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.btn-login{
+    background-color:rgb(238, 137, 48);
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-style: none;
+    width: 250px;
+    height: 35px;
+    color: white;
+}
+
+.login-checkbox{
+	margin-top: 15px;
+}
+
+.login-label{
+	margin-left:0px;
+	margin-top: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+
+@media (max-width: 641px) {
+    .container-login{
+        width: 350px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .background-login{
+        background-repeat: no-repeat;
+        background-size:auto;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1007px){
+    .container-login{
+        width: 350px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .background-login{
+        background-repeat: no-repeat;
+        background-size:auto;
+    }
+}
+
+@media (min-width: 1007px) and (max-width: 1500px){
+    .container-login{
+        width: 350px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .background-login{
+        background-repeat: no-repeat;
+        background-size:auto;
+    }
+}
+
+/* Login End */
+
+/* Sign Up Start*/
+
+.background-signup{
+    background-image: url(../img/Signup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-signup{
+    width: 320px;
+    backdrop-filter: blur(10px);
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 50px;
+    border-radius: 12px;
+}
+
+.signup-Heading{
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+.signup-text{
+    color: black;
+    margin-left: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    padding-left: 90px;
+    font-size: large;
+}
+
+.signup-label{
+    padding-left: 25px;
+    color: black;
+    margin-top: 10px;
+}
+
+.signup-input{
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.login-btn{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    width: 300px;
+    height: 40px;
+}
+
+@media (max-width:641px) {
+    .container-signup{
+        width: 350px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .background-signup{
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
+@media (min-width: 641px) and (max-width: 1007px){
+    .container-signup{
+        width: 350px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .background-signup{
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
+@media (min-width: 1007px) and (max-width: 1500px){
+    .container-signup{
+        width: 350px;
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+
+    .background-signup{
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
+
+/* Sign Up End */
+
+/* Reset Password Start */
+.background-reset{
+    background-image: url(../img/Reset-Password-Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-reset{
+    width: auto;
+    margin-left: 500px;
+    margin-right: 400px;
+    margin-top: 150px;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+}
+
+.reset-label{
+    color: black;
+    margin-left: 5px;
+    padding-left: 200px;
+}
+.reset-input{
+    margin-left: 150px;
+    width: 300px;
+}
+
+.reset-btn{
+    margin-left: 150px;
+}
+
+.reset-text{
+    padding-left: 230px;
+    color: black;
+    font-weight: 500;
+    font-size: large;
+}
+
+@media (max-width:641px) {
+    .container-reset{
+        width: 350px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .reset-text{
+        padding-left: 120px;
+    }
+    .reset-label{
+        margin-left: 5px;
+        padding-left: 60px;
+    }
+    .reset-input{
+        margin-left: 60px;
+        width: 250px;
+    }
+    .reset-btn{
+        margin-left: 80px;
+        width: 200px;
+    }
+
+    .background-reset{
+        background-size: auto;
+    }
+}
+@media (min-width: 641px) and (max-width: 1007px){
+    .container-reset{
+        width: 400px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .reset-text{
+        padding-left: 120px;
+    }
+
+    .reset-label{
+        margin-left: 5px;
+        padding-left: 60px;
+    }
+    .reset-input{
+        margin-left: 60px;
+        width: 250px;
+    }
+    .reset-btn{
+        margin-left: 80px;
+        width: 200px;
+    }
+
+    .background-reset{
+        background-size: auto;
+    }
+}
+
+@media (min-width: 1007px) and (max-width: 1400px){
+    .container-reset{
+        width: 550px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .background-reset{
+        background-size: auto;
+    }
+}
+
+/* Reset Password End */
