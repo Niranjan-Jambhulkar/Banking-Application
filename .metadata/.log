@@ -133,3 +133,15 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 21:14:48.121
 !MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 21:28:03.971
+!MESSAGE Classpath changed for project: Backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 21:28:03.971
+!MESSAGE Boot project ADDED: Backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 21:28:19.197
+!MESSAGE Classpath changed for project: BankingApplication_Backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 21:28:19.200
+!MESSAGE Boot project REMOVED: BankingApplication_Backend
