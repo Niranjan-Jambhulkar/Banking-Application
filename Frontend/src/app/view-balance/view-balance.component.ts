@@ -1,16 +1,18 @@
-import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 
 
 @Component({
   selector: 'app-view-balance',
   standalone: true,
-  imports: [HttpClientModule, CommonModule],
+  imports: [HttpClientModule, CommonModule, FormsModule],
   templateUrl: './view-balance.component.html',
   styleUrl: './view-balance.component.css'
 })
+
 export class ViewBalanceComponent {
   accNo:any = 124568964789;
   ifsc:any = "HDGF00145";

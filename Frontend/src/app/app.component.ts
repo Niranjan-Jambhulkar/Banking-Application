@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ViewBalanceComponent } from './view-balance/view-balance.component';
 import { DepositComponent } from './deposit/deposit.component';
 import { WithdrawComponent } from './withdraw/withdraw.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -14,5 +15,4 @@ import { WithdrawComponent } from './withdraw/withdraw.component';
 
 export class AppComponent {
   title = 'Word Bank';
-
 }
