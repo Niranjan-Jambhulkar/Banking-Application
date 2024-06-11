@@ -1,3 +1,5 @@
 <p>Account No: {{accNo}}</p>
 <p>IFSC: {{ifsc}}</p>
 <p>Balance: {{balance}}</p>
+<button (click)="get()">Click</button>
+<p *ngFor="let i for data">{{i.name}}</p>
