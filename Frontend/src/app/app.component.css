@@ -1,0 +1,22 @@
+.nav-container{
+    width: 250px;
+    height: 730px;
+    border-style: solid;
+    background-color: cadetblue;
+}
+
+.nav-text{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 500;
+}
+
+.main-container{
+    width: 1290px;
+    height: 730px;
+    border-style: solid;
+}
