@@ -303,3 +303,17 @@
 2024-06-11 19:09:49,263 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-06-11 19:09:49,263 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-06-11 19:09:49,266 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Banking Application\Backend\src\test\resources
+2024-06-11 21:05:26,392 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-11 21:22:55,710 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.10+7
+2024-06-11 21:22:55,788 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@7c59c232{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@180a90c8{STARTED}}
+2024-06-11 21:22:55,788 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-06-11 21:22:55,830 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@79efd0c3{HTTP/1.1, (http/1.1)}{127.0.0.1:62353}
+2024-06-11 21:22:55,848 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@7a266dfa{STARTING}[12.0.6,sto=0] @1061699ms
+2024-06-11 21:23:30,083 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-11 21:23:30,101 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-11 21:23:30,108 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Banking Application\Backend\src\test\resources
+2024-06-11 21:24:57,892 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-11 21:24:57,897 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-11 21:24:57,900 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Banking Application\Backend\src\test\resources
+2024-06-11 21:37:06,309 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@7a266dfa{STOPPING}[12.0.6,sto=0]
+2024-06-11 21:37:06,315 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@79efd0c3{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
