@@ -20,3 +20,49 @@
     height: 730px;
     border-style: solid;
 }
+
+@media (min-width: 500px) {
+    .main-container{
+        width: 280px;
+        height: 700px;
+        border-style: solid;
+    }
+    
+    .nav-container{
+        width: 220px;
+        height: 700px;
+        border-style: solid;
+        background-color: cadetblue;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1200px) {
+    .main-container{
+        width: 580px;
+        height: 700px;
+        border-style: solid;
+    }
+    
+    .nav-container{
+        width: 220px;
+        height: 700px;
+        border-style: solid;
+        background-color: cadetblue;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1800px) {
+    .nav-container{
+        width: 250px;
+        height: 730px;
+        border-style: solid;
+        background-color: cadetblue;
+    }
+    
+    
+    .main-container{
+        width: 1290px;
+        height: 730px;
+        border-style: solid;
+    }
+}
